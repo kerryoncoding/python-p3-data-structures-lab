@@ -26,7 +26,7 @@ def get_spiciest_foods(spicy_foods):
     #returns list of dictionaries
 
 def print_spicy_foods(spicy_foods):
-    #new_list = here
+    #new_list = still here
     pass
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
