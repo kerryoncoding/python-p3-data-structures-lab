@@ -26,14 +26,18 @@ def get_spiciest_foods(spicy_foods):
     #returns list of dictionaries
 
 def print_spicy_foods(spicy_foods):
-    #new_list = still here
-    pass
+    for item in spicy_foods:
+        print(f'{item["name"]} ({item["cuisine"]}) | Heat Level: {"🌶"*item["heat_level"]}')
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
-    pass
+    for item in spicy_foods:
+        if item["cuisine"]== cuisine:
+            return item
 
 def print_spiciest_foods(spicy_foods):
-    pass
+    for item in spicy_foods:
+        if item["heat_level"] > 5:
+            print(f'{item["name"]} ({item["cuisine"]}) | Heat Level: {"🌶"*item["heat_level"]}')
 
 def get_average_heat_level(spicy_foods):
     pass
